@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+    body{
+        width: auto;
+    }
+    .inside-container{
+        position: relative;
+        width: 250px;
+        top: -75px;
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .inside-container{
+        position: relative;
+        bottom: 110px;
+    }
+}
